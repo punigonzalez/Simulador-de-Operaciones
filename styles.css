@@ -23,6 +23,25 @@ h2{
     padding-top: 100px;
     
 }
+
+
+
+
+h5{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px 2px 2px 2px;
+    margin-bottom: 15px;
+    
+}
+hr{
+    color: greenyellow;
+    border-top: 3px solid greenyellow;
+    opacity: 100; 
+
+}
 h3 {
     text-align: center;
     font-size: 50px;
@@ -32,12 +51,19 @@ h3 {
     border-style: none;
     border-color: aliceblue;
 }
+#divImagenVacas {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
 
-h4 {
+.vacacionesTextoFoto {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 25px;
-    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    margin:5% 30% 0% 30%;
+
 }
 .btn {
     color: black;
@@ -60,4 +86,124 @@ h4 {
     padding-top: 15px;
     
 }
+#cajaVacaciones {
+    border-style: solid;
+    border-color: greenyellow;
+    margin:2% 30% 50px 30%;
+    
+}
+#textoDias{
+    margin-top: 55px;
+    margin-left: 50px;
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#textoSueldo {
+    margin-left: 50px;
 
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+#puntosComas{
+    padding: 0%;
+    margin: 0;
+    font-size: 14px;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+#inputDias {
+    border-style: solid;
+    height: 25px;
+    width: 45px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
+#inputSalario {
+    border-style: solid;
+    height: 25px;
+    width: 150px;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#btnCalcular {
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/*footer*/
+h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 18px;
+        text-align: left;
+
+}
+.iconosfooter {
+    justify-content: center;
+    text-align: center;
+    
+    justify-content: center;
+    
+    
+    
+}
+
+.iconofb {
+    margin: 5px;
+    transition: none;
+    color:greenyellow;
+    transform: none;
+    background-image: none;
+    
+}
+
+.iconotw {
+    margin: 5px;
+    color: greenyellow;
+    transition: none;
+    transform: none;
+    background-image: none;
+}
+
+.iconowsp {
+    margin: 5px;
+    color:greenyellow;
+    transition: none;
+    transform: none;
+    background-image: none;
+}
+
+.iconoig {
+    margin: 5px;
+    color:greenyellow;
+    transition: none;
+    transform: none;
+    background-image: none;
+}
+
+.fa-solid {
+    padding-right: 20px;
+    padding-left: 0;
+    
+}
+.copyRight {
+    margin: 0;
+    padding: 0;
+}
+
+.contacto {
+    display: inline;
+    justify-content: left;
+    background-color: #212529;
+}
+
+.hrFoot{
+    border-top: 0.5px solid greenyellow; 
+}
